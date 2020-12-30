@@ -7,6 +7,7 @@ cd data/3dpw
 gdown "https://drive.google.com/uc?id=1q6HxN0ZY8bm50sK4EBVImZSevGiAbNDS"
 unzip sequenceFiles.zip
 rm sequenceFiles.zip
+rm -rf __MACOSX
 
 #imageFiles.zip
 gdown "https://drive.google.com/uc?id=1K_X-6Oju_LCjwLqcUU8Yxu0zPI3eyXRV"
