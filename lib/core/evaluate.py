@@ -136,6 +136,7 @@ class Evaluator():
         accel = np.mean(compute_accel(pred_j3ds)) * m2mm
         accel_err = np.mean(compute_error_accel(joints_pred=pred_j3ds, joints_gt=target_j3ds)) * m2mm
         mpjpe = np.mean(errors) * m2mm
+        print("debug: shape of errors is {}".format(str(errors.shape())))
         pa_mpjpe = np.mean(errors_pa) * m2mm
 
         eval_dict = {
